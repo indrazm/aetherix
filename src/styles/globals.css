@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  input {
+    @apply w-full bg-inherit focus:outline-none;
+  }
+  button {
+    @apply font-bold text-slate-600 bg-slate-300 rounded-lg p-1 tracking-tight mt-2 hover:bg-slate-600 hover:text-slate-200;
+  }
+}
+@layer components {
+  .textEvent {
+    @apply m-auto space-y-1 mt-4 border-b-4 font-bold border-b-gray-500;
+  }
+}
