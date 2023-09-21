@@ -1,11 +1,11 @@
+
 import { Login } from "@/components/Auth/Login"
 
 export default function Home() {
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100vh' }}>
-      <div style={{ width: '300px', marginTop: '20px' }}>
+    <div className= flex flex-col items-center justify-center	h-screen>
+      <div classNAme= w-300 mt-20>
         <Login />
       </div>
     </div>
   )
-}
