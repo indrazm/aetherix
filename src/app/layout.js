@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <main className="max-w-2xl rounded-xl m-auto">{children}</main>
+        {children}
       </body>
     </html>
   );
